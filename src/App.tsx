@@ -13,9 +13,6 @@ function App() {
         <Projects />
         <About />
         <Contact />
-        <div className="bg-red-500 sm:bg-yellow-300 md:bg-green-500 lg:bg-purple-600">
-          SIZE
-        </div>
       </div>
     </div>
   );
