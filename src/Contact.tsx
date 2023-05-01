@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
           Contact
         </p>
         <p className="m-4 font-mono text-xl font-semibold text-white">
-          Email me at shawnweddle@gmail.com
+          Email me at
         </p>
       </div>
     </div>
