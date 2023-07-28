@@ -1,7 +1,7 @@
 const About: React.FC = () => {
   return (
     <div className="m-4 flex justify-center">
-      <div className="w-full max-w-4xl rounded-2xl bg-white/10">
+      <div className="w-full max-w-4xl rounded-2xl bg-white/20">
         <p className="m-4 text-center font-mono text-6xl font-semibold text-white">
           About
         </p>
