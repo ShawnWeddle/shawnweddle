@@ -22,7 +22,12 @@ const NameHeader: React.FC = () => {
             >
               <FaGithub />
             </a>
-            <a className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl">
+            <a
+              className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl"
+              href="https://www.linkedin.com/in/shawn-weddle-763aa4285/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin />
             </a>
             <a className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl">
