@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 import Blobs from "./Blobs";
 
 const NameHeader: React.FC = () => {
@@ -13,29 +13,24 @@ const NameHeader: React.FC = () => {
           <div className="font-mono text-2xl font-semibold text-white drop-shadow-lg sm:text-4xl md:text-5xl lg:text-6xl">
             Web Developer
           </div>
-          <div className="mt-4 flex justify-center">
-            <span className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl">
+          <div className="mt-4 flex justify-center gap-4">
+            <a
+              className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl"
+              href="https://github.com/ShawnWeddle"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub />
-            </span>
-            <span className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl">
+            </a>
+            <a className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl">
               <FaLinkedin />
-            </span>
+            </a>
+            <a className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl">
+              <FaYoutube />
+            </a>
           </div>
         </div>
       </div>
-    </div>
-  );
-};
-
-const IconHeader: React.FC = () => {
-  return (
-    <div className="flex justify-center">
-      <span className="m-4 block text-7xl font-extrabold text-orange-400 hover:text-pink-400 sm:text-8xl">
-        <FaGithub />
-      </span>
-      <span className="m-4 block text-7xl font-extrabold text-orange-400 hover:text-pink-400 sm:text-8xl">
-        <FaLinkedin />
-      </span>
     </div>
   );
 };
