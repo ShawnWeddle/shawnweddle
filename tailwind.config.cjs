@@ -7,8 +7,14 @@ module.exports = {
         leftBlob: "leftBlobPulse 7s ease-in-out infinite, leftBlobTransform 30s ease infinite",
         rightBlob: "rightBlobPulse 8s ease-in-out infinite, rightBlobTransform 31s ease infinite",
         middleBlob: "middleBlobPulse 7s ease-in-out infinite, middleBlobTransform 35s ease infinite",
+        arrowPulse: "arrowPulse 4s ease-in-out infinite",
       },
       keyframes: {
+        arrowPulse: {
+          "0%": {"opacity": "1"},
+          "50%": {"opacity": "0.75"},
+          "100%": {"opacity": "1"},
+        },
         leftBlobPulse: {
           "0%":{
             "border-radius": "33% 67% 45% 55% / 43% 50% 50% 57% "

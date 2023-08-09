@@ -3,7 +3,7 @@ import Blobs from "./Blobs";
 
 const NameHeader: React.FC = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center">
+    <div className="relative flex min-h-screen items-center justify-center">
       <div className="relative">
         <Blobs />
         <div>
