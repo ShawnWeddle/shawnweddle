@@ -7,38 +7,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
       <p className="m-4 text-center font-mono text-6xl font-semibold text-white">
         Projects
       </p>
-      <div className="flex flex-col sm:grid sm:grid-cols-3">
-        <div className="m-3 flex justify-center">
-          <div className="h-fit w-fit overflow-hidden rounded-md">
-            <img src="/shawn81_thumbnail.png" width="500" />
-          </div>
-        </div>
-        <div className="col-span-2 mx-4 sm:ml-1">
-          <div className="flex items-center justify-start">
-            <a
-              className="font-mono text-3xl font-semibold text-white hover:text-gray-200"
-              href="https://www.shawn81.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              shawn81.com
-            </a>
-            <a
-              className="px-4 text-xl text-white hover:text-gray-200"
-              href="https://github.com/ShawnWeddle/shawn81"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub />
-            </a>
-          </div>
-          <p className="text-gray-100">
-            Users can post messages and read messages posted by other users.
-            Users can also edit or delete their messages. Only 81 spots are
-            available.
-          </p>
-        </div>
-      </div>
+
       <div className="flex flex-col sm:grid sm:grid-cols-3">
         <div className="m-3 flex justify-center">
           <div className="h-fit w-fit overflow-hidden rounded-md">
@@ -71,6 +40,39 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
           </p>
         </div>
       </div>
+
+      <div className="flex flex-col sm:grid sm:grid-cols-3">
+        <div className="m-3 flex justify-center">
+          <div className="h-fit w-fit overflow-hidden rounded-md">
+            <img src="/sports_mega_world_thumbnail.png" width="500" />
+          </div>
+        </div>
+        <div className="col-span-2 mx-4 sm:ml-1">
+          <div className="flex items-center justify-start">
+            <a
+              className="font-mono text-3xl font-semibold text-white hover:text-gray-200"
+              href="https://www.sportsmegaworld.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              sportsmegaworld.com
+            </a>
+            <a
+              className="px-4 text-xl text-white hover:text-gray-200"
+              href="https://github.com/ShawnWeddle/qulur"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </div>
+          <p className="text-gray-100">
+            SportsMegaWorld is a collection of resources for different sports
+            leagues (Formula One, NFL, NBA, MLB, NHL, and WNBA).
+          </p>
+        </div>
+      </div>
+
       <div className="flex flex-col sm:grid sm:grid-cols-3">
         <div className="m-3 flex justify-center">
           <div className="h-fit w-fit overflow-hidden rounded-md">
@@ -102,6 +104,40 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
           </p>
         </div>
       </div>
+
+      <div className="flex flex-col sm:grid sm:grid-cols-3">
+        <div className="m-3 flex justify-center">
+          <div className="h-fit w-fit overflow-hidden rounded-md">
+            <img src="/shawn81_thumbnail.png" width="500" />
+          </div>
+        </div>
+        <div className="col-span-2 mx-4 sm:ml-1">
+          <div className="flex items-center justify-start">
+            <a
+              className="font-mono text-3xl font-semibold text-white hover:text-gray-200"
+              href="https://www.shawn81.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              shawn81.com
+            </a>
+            <a
+              className="px-4 text-xl text-white hover:text-gray-200"
+              href="https://github.com/ShawnWeddle/shawn81"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </div>
+          <p className="text-gray-100">
+            Users can post messages and read messages posted by other users.
+            Users can also edit or delete their messages. Only 81 spots are
+            available.
+          </p>
+        </div>
+      </div>
+
       <div className="m-4">
         <p className="mb-2 font-mono text-2xl font-semibold text-white">
           Projects built with{" "}

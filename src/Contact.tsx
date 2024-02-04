@@ -9,7 +9,7 @@ const Contact = forwardRef<HTMLDivElement>(({}, ref) => {
       <p className="m-4 text-center font-mono text-lg font-semibold text-white sm:text-2xl">
         You can e-mail me at{" "}
         <span className="bg-blue-800 text-yellow-200">
-          shawnweddle.webdev@gmail.com
+          shawnweddle.dev@gmail.com
         </span>{" "}
         or message me on{" "}
         <a

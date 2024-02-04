@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        leftBlob: "leftBlobPulse 7s ease-in-out infinite, leftBlobTransform 30s ease infinite",
-        rightBlob: "rightBlobPulse 8s ease-in-out infinite, rightBlobTransform 31s ease infinite",
-        middleBlob: "middleBlobPulse 7s ease-in-out infinite, middleBlobTransform 35s ease infinite",
+        leftBlob: "leftBlobPulse 7s ease-in-out infinite, leftBlobTransform 28s ease infinite",
+        rightBlob: "rightBlobPulse 7s ease-in-out infinite, rightBlobTransform 28s ease infinite",
+        middleBlob: "middleBlobPulse 7s ease-in-out infinite, middleBlobTransform 28s ease infinite",
         arrowPulse: "arrowPulse 4s ease-in-out infinite",
       },
       keyframes: {

@@ -30,9 +30,6 @@ const NameHeader: React.FC = () => {
             >
               <FaLinkedin />
             </a>
-            <a className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl">
-              <FaYoutube />
-            </a>
           </div>
         </div>
       </div>
@@ -41,3 +38,9 @@ const NameHeader: React.FC = () => {
 };
 
 export default NameHeader;
+
+/*
+<a className="m-4 block text-7xl font-extrabold text-white drop-shadow-lg transition hover:scale-110 sm:text-8xl">
+              <FaYoutube />
+            </a>
+*/
