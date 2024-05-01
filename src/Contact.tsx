@@ -9,17 +9,9 @@ const Contact = forwardRef<HTMLDivElement>(({}, ref) => {
       <p className="m-4 text-center font-mono text-6xl font-semibold">
         Contact
       </p>
-      <p className="m-4 text-center font-mono text-lg font-semibold sm:text-2xl">
-        You can e-mail me at{" "}
-        <span className=" text-emerald-200">shawnweddle.dev@gmail.com</span> or
-        message me on{" "}
-        <a
-          className="hover:underline"
-          href="https://www.linkedin.com/in/shawn-weddle-763aa4285/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
+      <p className="m-4 text-center font-mono text-lg font-semibold sm:text-4xl">
+        <a href="mailto:shawnweddle.dev@gmail.com" className=" text-yellow-300">
+          shawnweddle.dev@gmail.com
         </a>
       </p>
     </div>

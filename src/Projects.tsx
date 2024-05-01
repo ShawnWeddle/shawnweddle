@@ -20,7 +20,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
         <div className="col-span-2 mx-4 sm:ml-1">
           <div className="flex items-center justify-start">
             <a
-              className="font-mono text-3xl font-semibold hover:text-gray-200"
+              className="font-mono text-3xl font-semibold hover:text-yellow-300"
               href="https://www.zyzans.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -28,7 +28,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
               zyzans.com
             </a>
             <a
-              className="px-4 text-xl hover:text-gray-200"
+              className="px-4 text-xl hover:text-yellow-300"
               href="https://github.com/ShawnWeddle/zyzanspizza/"
               target="_blank"
               rel="noopener noreferrer"
@@ -51,9 +51,9 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
           </div>
         </div>
         <div className="col-span-2 mx-4 sm:ml-1">
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-start rounded-tr">
             <a
-              className="font-mono text-3xl font-semibold hover:text-gray-200"
+              className="font-mono text-3xl font-semibold hover:text-yellow-300"
               href="https://www.sportsmegaworld.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -61,7 +61,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
               sportsmegaworld.com
             </a>
             <a
-              className="px-4 text-xl hover:text-gray-200"
+              className="px-4 text-xl hover:text-yellow-300"
               href="https://github.com/ShawnWeddle/shawnsports"
               target="_blank"
               rel="noopener noreferrer"
@@ -85,7 +85,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
         <div className="col-span-2 mx-4 sm:ml-1">
           <div className="flex items-center justify-start">
             <a
-              className="font-mono text-3xl font-semibold hover:text-gray-200"
+              className="font-mono text-3xl font-semibold hover:text-yellow-300"
               href="https://www.qulur.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -93,7 +93,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
               qulur.com
             </a>
             <a
-              className="px-4 text-xl hover:text-gray-200"
+              className="px-4 text-xl hover:text-yellow-300"
               href="https://github.com/ShawnWeddle/qulur"
               target="_blank"
               rel="noopener noreferrer"
@@ -117,7 +117,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
         <div className="col-span-2 mx-4 sm:ml-1">
           <div className="flex items-center justify-start">
             <a
-              className="font-mono text-3xl font-semibold hover:text-gray-200"
+              className="font-mono text-3xl font-semibold hover:text-yellow-300"
               href="https://www.shawn81.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -125,7 +125,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
               shawn81.com
             </a>
             <a
-              className="px-4 text-xl hover:text-gray-200"
+              className="px-4 text-xl hover:text-yellow-300"
               href="https://github.com/ShawnWeddle/shawn81"
               target="_blank"
               rel="noopener noreferrer"

@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 import Blobs from "./Blobs";
+import Name from "./Name";
 
 const NameHeader: React.FC = () => {
   return (
@@ -7,9 +8,7 @@ const NameHeader: React.FC = () => {
       <div className="relative">
         <Blobs />
         <div>
-          <div className="font-mono text-4xl font-semibold text-white drop-shadow-lg sm:text-6xl md:text-8xl lg:text-9xl">
-            Shawn Weddle
-          </div>
+          <Name />
           <div className="font-mono text-2xl font-semibold text-white drop-shadow-lg sm:text-4xl md:text-5xl lg:text-6xl">
             Web Developer
           </div>
