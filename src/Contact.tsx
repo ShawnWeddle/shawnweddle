@@ -10,8 +10,8 @@ const Contact = forwardRef<HTMLDivElement>(({}, ref) => {
         Contact
       </p>
       <p className="m-4 text-center font-mono text-lg font-semibold sm:text-4xl">
-        <a href="mailto:shawnweddle.dev@gmail.com" className=" text-yellow-300">
-          shawnweddle.dev@gmail.com
+        <a href="mailto:shawnweddle24@gmail.com" className=" text-yellow-300">
+          shawnweddle24@gmail.com
         </a>
       </p>
     </div>
