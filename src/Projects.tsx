@@ -71,7 +71,7 @@ const Projects = forwardRef<HTMLDivElement>(({}, ref) => {
           </div>
           <p>
             SportsMegaWorld is a collection of resources for different sports
-            leagues (Formula One, NFL, NBA, MLB, NHL, and WNBA).
+            leagues (Formula One, NFL, NBA, MLB, NHL, MLS, WNBA, and CFL).
           </p>
         </div>
       </div>
