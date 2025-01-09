@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-emerald-500 via-sky-600 to-indigo-600">
+    <div className="min-h-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-fourth via-third to-first">
       <div className="flex flex-col items-center">
         <NameHeader />
         <About ref={aboutRef} />
@@ -30,19 +30,19 @@ function App() {
 
         <div className="fixed bottom-0 grid w-full grid-cols-3 sm:flex sm:w-auto sm:justify-center">
           <div
-            className="bg-violet-300/50 py-2 text-center text-xl text-white hover:bg-violet-300/70 sm:rounded-tl-full sm:px-10"
+            className="bg-first/50 py-2 text-center text-xl text-white hover:bg-first/70 sm:rounded-tl-full sm:px-10"
             onClick={handleAboutScroll}
           >
             About
           </div>
           <div
-            className="bg-emerald-300/50 py-2 text-center text-xl text-white hover:bg-emerald-300/70 sm:px-10"
+            className="bg-third/50 py-2 text-center text-xl text-white hover:bg-third/70 sm:px-10"
             onClick={handleProjectsScroll}
           >
             Projects
           </div>
           <div
-            className="bg-blue-300/50 py-2 text-center text-xl text-white hover:bg-blue-300/70 sm:rounded-tr-full sm:px-10"
+            className="bg-second/50 py-2 text-center text-xl text-white hover:bg-second/70 sm:rounded-tr-full sm:px-10"
             onClick={handleContactScroll}
           >
             Contact

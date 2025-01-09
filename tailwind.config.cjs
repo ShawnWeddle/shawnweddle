@@ -3,6 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      colors: {
+        first: "#000073",
+        second: "#ff6f69",
+        third: "#7fe5ba",
+        fourth: "#def8ff",
+      },
       animation: {
         arrowPulse: "arrowPulse 4s ease-in-out infinite",
         leftBlob: "leftBlobPulse 7s ease-in-out infinite, leftBlobTransform 28s ease infinite",
